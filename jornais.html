@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="utf-8" />    
+  <title>A Disputa dos Jornais </title>
+  <link rel="stylesheet" href="estilo.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Jornais da Cidade</h1>
+  </header>
+
+  <nav>
+    <a href="index.html"> Mais Jogos</a> 
+  </nav>
+
+ <div id="enunciado">
+  <div class="conteudo">
+    <img src="img/banca de jornal fofa.jpg" alt="banca de jornal" class="imagem">
+
+    <div class="texto">
+      <p>
+      Cinco jornais disputam o mesmo publico.<br> 
+      Determine as caracteristicas de cada um deles.
+      </p>
+      
+    </div>
+    <div class="instrucoes">
+      <p>
+        <strong>Instruções do Jogo:</strong><br>
+        Utilize a tabela de dicas para organizar suas respostas:<br>
+        ✓ se achar que está certo.<br>
+        X se achar que está errado.<br>
+        Se quiser começar de novo, clique em Reiniciar para voltar todos os botões para ?.<br>
+        Após chegar a sua concluão preencha a tabela com as respostas e confira se chegou a conclusão certa:<br>
+      </p>
+    </div>
+     </div>
+
+   <div id="main">
+<div id="direita">
+  <div id="pistas">
+    <h2>Escolha seu nível de dificuldade</h2>
+
+    <label><input name="nivel" type="radio" id="facil" value="Facil"> Fácil</label><br>
+    <label><input name="nivel" type="radio" id="medio" value="Medio"> Médio</label><br>
+    <label><input name="nivel" type="radio" id="dificil" value="Dificil"> Difícil</label><br>
+
+    <button id="mostrar">Mostrar pistas</button>
+    <p id="pista"></p>
+  </div>
+  <div id="QuadroRespostaContainer">
+  <table id="Tabelafinal">
+      <caption> <strong> Tabela Reposta</strong> </caption>
+      <tr>
+        <th>Jornal</th>
+        <th>Valor Unitario</th>
+        <th>Número de Paginas</th>
+        <th>Assinatura Mensal</th>
+      </tr>
+      <tr>
+      <td>
+        <select>
+          <option value="">— escolha —</option>
+          <option>Boa Nova</option>
+          <option>Gravuras</option>
+          <option>O Alvorada</option>
+          <option>O Apelo</option>
+          <option>O Popular</option>
+        </select>
+      </td>
+      <td>
+        <select>
+          <option value="">— escolha —</option>
+          <option>0,80</option>
+          <option>0,90</option>
+          <option>1,00</option>
+          <option>1,10</option>
+          <option>1,20</option>
+        </select>
+      </td>
+      <td>
+        <select>
+          <option value="">— escolha —</option>
+          <option>10</option>
+          <option>20</option>
+          <option>30</option>
+          <option>40</option>
+          <option>50</option>
+        </select>
+      </td>
+      <td>
+        <select>
+          <option value="">— escolha —</option>
+          <option>80</option>
+          <option>90</option>
+          <option>100</option>
+          <option>110</option>
+          <option>120</option>
+        </select>
+      </td>
+      </tr>
+       <tr>
+      <td>
+        <select>
+          <option value="">— escolha —</option>
+          <option>Boa Nova</option>
+          <option>Gravuras</option>
+          <option>O Alvorada</option>
+          <option>O Apelo</option>
+          <option>O Popular</option>
+        </select>
+      </td>
+      <td>
+        <select>
+          <option value="">— escolha —</option>
+          <option>0,80</option>
+          <option>0,90</option>
+          <option>1,00</option>
+          <option>1,10</option>
+          <option>1,20</option>
+        </select>
+      </td>
+      <td>
+        <select>
+          <option value="">— escolha —</option>
+          <option>10</option>
+          <option>20</option>
+          <option>30</option>
+          <option>40</option>
+          <option>50</option>
+        </select>
+      </td>
+      <td>
+        <select>
+          <option value="">— escolha —</option>
+          <option>80</option>
+          <option>90</option>
+          <option>100</option>
+          <option>110</option>
+          <option>120</option>
+        </select>
+      </td>
+      </tr>
+       <tr>
+      <td>
+        <select>
+          <option value="">— escolha —</option>
+          <option>Boa Nova</option>
+          <option>Gravuras</option>
+          <option>O Alvorada</option>
+          <option>O Apelo</option>
+          <option>O Popular</option>
+        </select>
+      </td>
+      <td>
+        <select>
+          <option value="">— escolha —</option>
+          <option>0,80</option>
+          <option>0,90</option>
+          <option>1,00</option>
+          <option>1,10</option>
+          <option>1,20</option>
+        </select>
+      </td>
+      <td>
+        <select>
+          <option value="">— escolha —</option>
+          <option>10</option>
+          <option>20</option>
+          <option>30</option>
+          <option>40</option>
+          <option>50</option>
+        </select>
+      </td>
+      <td>
+        <select>
+          <option value="">— escolha —</option>
+          <option>80</option>
+          <option>90</option>
+          <option>100</option>
+          <option>110</option>
+          <option>120</option>
+        </select>
+      </td>
+      </tr> 
+       <tr>
+      <td>
+        <select>
+          <option value="">— escolha —</option>
+          <option>Boa Nova</option>
+          <option>Gravuras</option>
+          <option>O Alvorada</option>
+          <option>O Apelo</option>
+          <option>O Popular</option>
+        </select>
+      </td>
+      <td>
+        <select>
+          <option value="">— escolha —</option>
+          <option>0,80</option>
+          <option>0,90</option>
+          <option>1,00</option>
+          <option>1,10</option>
+          <option>1,20</option>
+        </select>
+      </td>
+      <td>
+        <select>
+          <option value="">— escolha —</option>
+          <option>10</option>
+          <option>20</option>
+          <option>30</option>
+          <option>40</option>
+          <option>50</option>
+        </select>
+      </td>
+      <td>
+        <select>
+          <option value="">— escolha —</option>
+          <option>80</option>
+          <option>90</option>
+          <option>100</option>
+          <option>110</option>
+          <option>120</option>
+        </select>
+      </td>
+      </tr>
+       <tr>
+      <td>
+        <select>
+          <option value="">— escolha —</option>
+          <option>Boa Nova</option>
+          <option>Gravuras</option>
+          <option>O Alvorada</option>
+          <option>O Apelo</option>
+          <option>O Popular</option>
+        </select>
+      </td>
+      <td>
+        <select>
+          <option value="">— escolha —</option>
+          <option>0,80</option>
+          <option>0,90</option>
+          <option>1,00</option>
+          <option>1,10</option>
+          <option>1,20</option>
+        </select>
+      </td>
+      <td>
+        <select>
+          <option value="">— escolha —</option>
+          <option>10</option>
+          <option>20</option>
+          <option>30</option>
+          <option>40</option>
+          <option>50</option>
+        </select>
+      </td>
+      <td>
+        <select>
+          <option value="">— escolha —</option>
+          <option>80</option>
+          <option>90</option>
+          <option>100</option>
+          <option>110</option>
+          <option>120</option>
+        </select>
+      </td>
+       </tr>
+       </table>
+        <div class="botoesfinais">
+    <button id="conferirBtn">Conferir Resposta</button>
+    <p id="resultado"></p>
+    <button id="reiniciar">Reiniciar</button>
+  </div>
+</div>
+  </div>
+  <div id="resposta">
+    <table id="tabelaResposta">
+      <caption> <strong> Tabela Dicas</strong> </caption>
+      <tr>
+        <th></th>
+        <th class="titulo">Boas Novas</th>
+        <th class="titulo">Gravuras</th>
+        <th class="titulo">O Alvorada</th>
+        <th class="titulo">O Apelo</th>
+        <th class="titulo">O Popular</th>
+        <td class="espaco"></td>
+        <th class="titulo">R$ 0,80</th>
+        <th class="titulo">R$ 0,90</th>
+        <th class="titulo">R$ 1,00</th>
+        <th class="titulo">R$ 1,10</th>
+        <th class="titulo">R$ 1,20</th>
+        <td class="espaco"></td>
+        <th class="titulo">10 Pág</th>
+        <th class="titulo">20 Pág</th>
+        <th class="titulo">30 Pág</th>
+        <th class="titulo">40 Pág</th>
+        <th class="titulo">50 Pág</th>
+      </tr>
+      <tr>
+        <td class="titulo">R$ 80</td>
+        <td><button class="resposta">?</button></td>
+        <td><button  class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td class="espaco"></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button  class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td class="espaco"></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+      </tr>
+        <tr>
+        <td class="titulo">R$ 90</td>
+        <td><button class="resposta">?</button></td>
+        <td><button  class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td class="espaco"></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button  class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td class="espaco"></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+      </tr>
+        <tr>
+        <td class="titulo">R$ 100</td>
+        <td><button class="resposta">?</button></td>
+        <td><button  class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td class="espaco"></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button  class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td class="espaco"></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+      </tr>
+        <tr>
+        <td class="titulo">R$ 110</td>
+        <td><button class="resposta">?</button></td>
+        <td><button  class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td class="espaco"></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button  class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td class="espaco"></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+      </tr>
+        <tr>
+        <td class="titulo">R$ 120</td>
+        <td><button class="resposta">?</button></td>
+        <td><button  class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td class="espaco"></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button  class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td class="espaco"></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+      </tr>
+       <tr>
+        <td class="linha"></td>
+        <td class="linha"></td>
+        <td class="linha"></td>
+        <td class="linha"></td>
+        <td class="linha"></td>
+        <td class="linha"></td>
+        <td class="linha"></td>
+        <td class="linha"></td>
+        <td class="linha"></td>
+        <td class="linha"></td>
+        <td class="linha"></td>
+        <td class="linha"></td>
+        <td class="linha"></td>
+        <td class="linha"></td>
+        <td class="linha"></td>
+        <td class="linha"></td>
+        <td class="linha"></td>
+        <td class="linha"></td>
+
+      </tr>
+      <tr>
+        <td class="titulo">10 pág</td>
+        <td><button class="resposta">?</button></td>
+        <td><button  class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td class="espaco"></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button  class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td class="espaco"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+      </tr>
+       <tr>
+        <td class="titulo">20 pág.</td>
+        <td><button class="resposta">?</button></td>
+        <td><button  class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td class="espaco"></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button  class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td class="espaco"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+      </tr>
+       <tr>
+        <td class="titulo">30 pág.</td>
+        <td><button class="resposta">?</button></td>
+        <td><button  class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td class="espaco"></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button  class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td class="espaco"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+      </tr>
+       <tr>
+        <td class="titulo">40 pág.</td>
+        <td><button class="resposta">?</button></td>
+        <td><button  class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td class="espaco"></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button  class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td class="espaco"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+      </tr>
+       <tr>
+        <td class="titulo">50 pág.</td>
+        <td><button class="resposta">?</button></td>
+        <td><button  class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td class="espaco"></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button  class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td class="espaco"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+      </tr>
+       <tr>
+        <td class="linha"></td>
+        <td class="linha"></td>
+        <td class="linha"></td>
+        <td class="linha"></td>
+        <td class="linha"></td>
+        <td class="linha"></td>
+        <td class="linha"></td>
+        <td class="linha"></td>
+        <td class="linha"></td>
+        <td class="linha"></td>
+        <td class="linha"></td>
+        <td class="linha"></td>
+        <td class="linha"></td>
+        <td class="linha"></td>
+        <td class="linha"></td>
+        <td class="linha"></td>
+        <td class="linha"></td>
+        <td class="linha"></td>
+
+      </tr>
+      <tr>
+        <td class="titulo">R$ 0,80</td>
+        <td><button class="resposta">?</button></td>
+        <td><button  class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td class="espaco"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="espaco"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+      </tr>
+       <tr>
+        <td class="titulo">R$ 0,90</td>
+        <td><button class="resposta">?</button></td>
+        <td><button  class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td class="espaco"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="espaco"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+      </tr>
+       <tr>
+        <td class="titulo">R$ 1,00</td>
+        <td><button class="resposta">?</button></td>
+        <td><button  class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td class="espaco"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="espaco"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+      </tr>
+       <tr>
+        <td class="titulo">R$ 1,10</td>
+        <td><button class="resposta">?</button></td>
+        <td><button  class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td class="espaco"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="espaco"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+      </tr>
+       <tr>
+        <td class="titulo">R$ 1,20</td>
+        <td><button class="resposta">?</button></td>
+        <td><button  class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td><button class="resposta">?</button></td>
+        <td class="espaco"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="espaco"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+        <td class="preto"></td>
+      </tr>
+
+       </table>
+  </div>
+    </div>
+
+<script src="jornais.js" defer></script> 
+</body>
+</html>

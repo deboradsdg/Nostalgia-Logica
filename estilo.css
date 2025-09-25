@@ -1,0 +1,178 @@
+/* --- 1. ESTILOS GERAIS --- */
+body {
+    background-color: lightblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    background-color: navy;
+    text-align: left;
+    color: white
+}
+
+a{
+    color: white;
+    font-size: x-large;
+}
+
+/* --- 2. LAYOUT PRINCIPAL --- */
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+/#enunciado {
+  width: 80%;              /* ocupa 80% da tela */
+  margin: 0 auto 20px;     /* centraliza */
+  display: flex;           /* deixa lado a lado */
+  gap: 20px;               /* espaço entre blocos */
+  align-items: flex-start; /* alinha pelo topo */
+}
+
+.conteudo {
+  flex: 2;                 /* ocupa mais espaço (imagem + texto) */
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.imagem {
+  max-width: 200px;        /* controla tamanho da imagem */
+  height: auto;
+  flex-shrink: 0;          /* não deixa encolher demais */
+}
+
+.texto {
+  text-align: left;
+}
+
+.instrucoes {
+  flex: 1;                 /* ocupa menos espaço */
+  text-align: left;
+}
+
+.botoesfinais {
+  flex-basis: 100%;        /* quebra linha para os botões ficarem embaixo */
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.direita{
+    display: flex;
+    align-items: center;
+    flex-direction: line;
+
+}
+
+/* --- 4. PISTAS --- */
+#pistas {
+    display: inline-block;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+#pista {
+    /* Mantém a formatação de quebra de linha do JavaScript */
+    white-space: pre-line;
+}
+
+/* --- 5. TABELAS GERAIS --- */
+th, td {
+    border: 1px solid black;
+    width: 80px;
+    height: 40px;
+}
+
+.espaco{
+    width: 0.5px;
+    height: 40px;
+    background-color: black;
+}
+
+.linha{
+    width: 0.5px;
+    height: 0.5px;
+    background-color: black;
+}
+
+.titulo {
+    font-weight: bolder;
+}
+
+  th.titulo {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    text-align: center;
+    vertical-align: bottom;
+    padding: 5px;
+    height: 150px;
+  }
+/* --- 6. TABELAS ESPECÍFICAS --- */
+#QuadroRespostaContainer {
+    display: flex;
+    flex-direction: line;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid black;
+}
+
+#tabelaResposta {
+    width: 80%;
+    margin: 20px auto; /* A alteração é aqui */
+    text-align: justify;
+    border-collapse: collapse;
+}
+
+
+
+#Tabelafinal {
+    border-collapse: collapse;
+    border: none;
+}
+
+#Tabelafinal th, #Tabelafinal td {
+    border: none;
+    padding: 5px 10px;
+}
+
+/* --- 7. BOTÕES E RESULTADOS --- */
+.botoes {
+    display: flex;
+    justify-content: line;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.botoesfinais {
+    display: flex;
+    flex-direction: line;
+    gap: 10px;
+}
+
+.preto {
+    background-color: black;
+}
+
+.resposta {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: block;
+    border: 1px solid #ccc;
+}
+
+
+
+#resultado {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 10px;
+}
